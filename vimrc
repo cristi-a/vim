@@ -26,6 +26,7 @@ set shiftwidth=4
 
 set background=dark
 color gruvbox
+hi Normal guibg=NONE ctermbg=NONE
 
 nnoremap <F9> :! make "%:r"<CR>
 nnoremap <F5> :!./%< <CR>
