@@ -1,4 +1,4 @@
 # vim
-vimrc config
-bash_profile settings to make <c-s> shortcut work
-bashrc for make and submit
+vimrc config\n
+bash_profile settings to make <c-s> shortcut work\n
+bashrc for make and submit\n
