@@ -23,9 +23,11 @@ set expandtab
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
+set scrolloff=10
 
-set background=light
-color PaperColor
+set background=dark
+color gruvbox
+hi Normal guibg=NONE ctermbg=NONE
 
 nnoremap <F9> :! make "%:r"<CR>
 nnoremap <F5> :!./%< <CR>
