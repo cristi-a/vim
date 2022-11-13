@@ -20,14 +20,13 @@ set laststatus=2
 set noshowmode
 
 set expandtab
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
-set scrolloff=10
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set scrolloff=9
 
 set background=dark
-color gruvbox
-hi Normal guibg=NONE ctermbg=NONE
+colo dosbox
 
 nnoremap <F9> :! make "%:r"<CR>
 nnoremap <F5> :!./%< <CR>
